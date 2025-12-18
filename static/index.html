@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Processor AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <!-- Home View: Tool Selection -->
+        <div id="home-view" class="view-section">
+            <h1 class="main-title">Kords Tools</h1>
+            <p class="subtitle">Choose a tool to get started</p>
+
+            <div class="card-grid">
+                <div class="selection-card" id="card-excel">
+                    <div class="card-icon">📂</div>
+                    <h2>Revamp Excel</h2>
+                    <p>Clean, process, and split your real estate data sheets instantly.</p>
+                </div>
+
+                <div class="selection-card" id="card-project">
+                    <div class="card-icon">⬇️</div>
+                    <h2>Project Downloader</h2>
+                    <p>Scrape Nawy projects and download assets (Photos, Plans, Desc).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Excel Process Tool View -->
+        <div id="excel-tool-view" class="view-section hidden">
+            <button class="btn-back" id="back-excel">← Back to Home</button>
+            <div class="glass-card">
+                <img src="/static/kords_logo.png" alt="Kords Logo" class="logo-small">
+                <h2>Excel Processor</h2>
+                <p class="subtitle">Drag & Drop your Excel file to revamp it instantly.</p>
+
+                <div class="drop-zone" id="drop-zone">
+                    <div class="icon">📂</div>
+                    <p>Drag file here or <span>browse</span></p>
+                    <input type="file" id="file-input" accept=".xlsx" hidden>
+                </div>
+
+                <div id="status-area" class="status-area hidden">
+                    <div class="loader hidden" id="loader"></div>
+                    <p id="status-text"></p>
+                    <div class="action-buttons">
+                        <button id="download-btn" class="btn hidden">Download Processed File</button>
+                        <button id="reset-btn" class="btn-secondary hidden">Process Another File</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Downloader Tool View -->
+        <div id="project-tool-view" class="view-section hidden">
+            <button class="btn-back" id="back-project">← Back to Home</button>
+            <div class="glass-card">
+                <div class="project-downloader">
+                    <h3>Real Estate Project Downloader</h3>
+                    <p class="subtitle">Enter Nawy Project URL to download files.</p>
+
+                    <div class="input-group">
+                        <input type="text" id="project-url" placeholder="https://www.nawy.com/ar/compound/..."
+                            class="url-input">
+                        <button id="convert-btn" class="btn-primary">⬇️ Download Project Files</button>
+                    </div>
+
+                    <div id="project-status" class="status-area hidden">
+                        <p id="project-status-text">Extracting Files...</p>
+                        <div class="progress-window">
+                            <div class="progress-bar" id="project-progress-bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="/static/script.js?v=3"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+/Users/mac/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Logging in...
+Login successful.
+Navigating to E-Realty...
+Loading projects...
+Found 24 projects.
+Scraping: https://erealty.nawy.com/project/4622
+Project Name: Developer Behind Jirian - Nations of Sky
+Scraping: https://erealty.nawy.com/project/10655
+Project Name: Tierra New Cairo Compound Developer - Saudi Egyptian Developers
+Scraping: https://erealty.nawy.com/project/12325
+Project Name: East Vale Compound Developer - Sodic Company
+Scraping: https://erealty.nawy.com/project/10647
+Project Name: Developer Behind Solana East Strip - Ora Developers 
+Scraping: https://erealty.nawy.com/project/6106
+Project Name: Hyde Park Signature Compound Developer - Hyde Park Developments
+Scraping: https://erealty.nawy.com/project/1424
+Project Name: Crescent Walk New Cairo Developer - Marakez
+Scraping: https://erealty.nawy.com/project/894
+Project Name: Solana East Compound Developer - Ora Developers
+Scraping: https://erealty.nawy.com/project/775
+Project Name: Telal East Compound Developer - Roya Developments
+Scraping: https://erealty.nawy.com/project/4612
+Project Name: La Vista Developments 
+Scraping: https://erealty.nawy.com/project/244
+Project Name: ZED West Developer - Ora Developers 
+Scraping: https://erealty.nawy.com/project/649
+Project Name: The Crest New Cairo Developer: Il Cazar Developments
+Scraping: https://erealty.nawy.com/project/850
+Project Name: Mar Ville New Zayed Developer - Al Marasem 
+Scraping: https://erealty.nawy.com/project/601
+Project Name: About LMD
+Scraping: https://erealty.nawy.com/project/854
+Project Name: About People and Places
+Scraping: https://erealty.nawy.com/project/2122
+Project Name: Scenes Mostakbal City Developer - Tatweer Misr
+Scraping: https://erealty.nawy.com/project/233
+Project Name: O West Compound Developer - Orascom Development
+Scraping: https://erealty.nawy.com/project/211
+Project Name: Developer Behind Badya - Palm Hills
+Scraping: https://erealty.nawy.com/project/86
+Project Name: Hyde Park New Cairo Developer - Hyde Park Developments
+Scraping: https://erealty.nawy.com/project/39
+Project Name: Developer of Silver Sands North Coast: Ora Developers
+Scraping: https://erealty.nawy.com/project/1009
+Project Name: About the Ramla North Coast Developer - Marakez
+Scraping: https://erealty.nawy.com/project/159
+Project Name: About Palm Hills Developments
+Scraping: https://erealty.nawy.com/project/1057
+Project Name: About SODIC
+Scraping: https://erealty.nawy.com/project/65
+Project Name: Untitled_Project
+Scraping: https://erealty.nawy.com/project/1086
+Project Name: Beit El Bahr Developer
+Saved metadata to output_files/extracted_projects.xlsx
