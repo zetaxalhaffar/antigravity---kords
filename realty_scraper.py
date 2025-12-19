@@ -20,7 +20,7 @@ import argparse
 
 def run(target_url=None):
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+           browser = p.chromium.launch(headless=True)  # Changed from False to True
         context = browser.new_context()
         page = context.new_page()
 
